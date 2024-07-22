@@ -1,0 +1,31 @@
+{
+  "name": "api-restful",
+  "version": "1.0.0",
+  "description": "Gympass style app.",
+  "main": "index.js",
+  "scripts": {
+    "start:dev": "tsx watch src/server.ts",
+    "start": "node build/server.js",
+    "build": "tsup src --out-dir build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@rocketseat/eslint-config": "2.1.0",
+    "@types/bcryptjs": "2.4.6",
+    "@types/node": "20.11.5",
+    "prisma": "5.8.1",
+    "tsup": "8.0.1",
+    "tsx": "4.7.0",
+    "typescript": "5.3.3"
+  },
+  "dependencies": {
+    "@fastify/jwt": "8.0.1",
+    "@prisma/client": "5.8.1",
+    "bcryptjs": "2.4.3",
+    "dotenv": "16.3.1",
+    "fastify": "4.25.2",
+    "zod": "3.22.4"
+  }
+}
